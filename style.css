@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+
+
+body {
+    height: 3000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-links {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 170px;
+    box-shadow: 0 3px 4px #5252523d;
+    z-index: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.service span {
+    color: hsl(199deg 98% 48%);
+}
+
+.service {
+    padding: 50px 170px;
+    background-color: hsl(0deg 0% 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+
+}
+
+.content {
+    display: flex;
+    padding: 50px 170px;
+    align-items: baseline;
+    height: 421px;
+    justify-content: space-between;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 304px;
+    width: 400px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-us {
+    padding: 0 170px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: hsl(0deg 0% 96%);
+    height: 400px;
+}
+
+.about-us div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.counts {
+    display: flex;
+    gap: 50px;
+    padding: 0 170px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.cards {
+    width: 220px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.red {
+    background-color: hsl(0deg 52% 46%);
+}
+
+.blue {
+    background-color: hsl(199deg 62% 35%);
+}
+
+.green {
+    background-color: hsl(167deg 62% 34%);
+}
+
+.our-skills {
+    display: flex;
+    padding: 0 170px;
+    background-color: hsl(0deg 0% 96%);
+    flex-direction: column;
+    height: 700px;
+}
+
+.our-skills h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.titels {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+    width: 117px;
+    align-items: flex-end;
+    text-align: center;
+    position: relative;
+}
+
+.titels h3 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.titels h3::after {
+    content: "";
+    width: 1068px;
+    background-color: white;
+    height: 50px;
+    transform: translateX(55px);
+    position: absolute;
+    left: 78px;
+}
+
+.titels h3::before {
+    content: "60%";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    background-color: hsl(199deg 98% 48%);
+    height: 50px;
+    transform: translateX(55px);
+    position: absolute;
+    left: 78px;
+    z-index: 1;
+    color: white;
+}
+
+.css::before {
+    content: "70%" !important; 
+    width: 600px !important;
+}
+
+.js::before {
+    content: "80%" !important;
+    width: 700px !important;
+}
+
+.php::before {
+    content: "65%" !important;
+    width: 550px !important;
+}
+
+.python::before {
+    content: "90%" !important;
+    width: 800px !important;
+}
+
+.footer {
+    background-color: hsl(0deg 0% 20%);
+    height: 70px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer span {
+    color: hsl(210deg 90% 56%);
+    font-weight: bold;
+}
+
